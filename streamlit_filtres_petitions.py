@@ -115,7 +115,7 @@ if "include_societal_scores_state" not in st.session_state:
 
 if st.session_state["include_societal_scores_state"] != include_societal_scores:
     st.session_state["include_societal_scores_state"] = include_societal_scores
-    st.rerun()
+    st.experimental_rerun()
 
 # Formulaire principal
 with st.form("parametres"):
