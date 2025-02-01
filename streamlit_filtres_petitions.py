@@ -97,7 +97,7 @@ SOCIETAL_SCORES_COL = [
 DYNAMIC_COLUMNS = ["ville", "villes", "villes_cpt"]
 custom_column_order = [
     "id", "year", "date", "title", "description", "target", "title_description",
-    "processed_datea", "total_signature_count", "dominant topic", "dominant score"
+    "processed_data", "total_signature_count", "dominant topic", "dominant score"
 ] + DYNAMIC_COLUMNS + SOCIETAL_SCORES_COL
 EXCLUDED_COLUMNS = ["themes", "themes_MC"]
 
